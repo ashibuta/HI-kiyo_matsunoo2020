@@ -1,0 +1,56 @@
+---
+title:  <span style="font-size:12pt">「考古学・植物学を活用した松尾大社社蔵史料の料紙の構成物分析」関連データ</span>
+author: <span style="font-size:10pt">渋谷綾子・野村朋弘・高島晶彦・天野真志・山田太造</span> 
+output: 
+ word_document:
+    fig_width: 7
+    fig_height: 5
+    fig_caption: true
+ html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+　このファイルは、図3の作成に使用したRマークダウンのコードである。現生標本（イネ、アワ、キビ、ヒエ）と松尾大社社蔵史料で確認された料紙のデンプン粒（イネ、トロロアオイ、種不明））について粒径の比較・検討を行い、それぞれの特徴を可視化した。デンプン粒の粒径範囲は標本によって左右されるが（註21論文）、現生標本は渋谷2010（註16論文）で計測したデータ（任意で20個抽出）にもとづくものであり、料紙のデンプン粒は、調査史料63点の撮影箇所における計測結果を用いており、イネ223個、トロロアオイ30個、種不明106個である。  
+<p>
+
+```{r, message=FALSE, comment=""}
+# パッケージの読み込み
+library(ggplot2)
+library(readr)
+library(tidyverse)
+library(knitr)
+library(rmarkdown)
+library(revealjs)
+library(scales)
+```
+
+```{r, message=FALSE, comment=""}
+# CSVファイルの読み取り
+starch <- read_csv("ryoshi-starch.csv")
+```
+
+```{r, message=FALSE, comment=""}
+head(starch)　 # データフレームの上6行を表示
+names(starch)  # starchに含まれるすべての変数名
+dim(starch)　  # starchに含まれる観測数と変数の数を表示させる 
+```
+
+```{r, message=FALSE, comment=""}
+n_fun <- function(x){
+return(data.frame(y = max(x)+3.5, label = paste0("n = ",length(x))))
+}
+
+ggplot(starch, aes(x = デンプン粒の種類, y = 粒径範囲)) +
+  geom_violin(trim=T,fill="#999999",linetype="blank",alpha=I(1/3),adjust=2.5)+ # バイオリンプロット作成
+  stat_summary(geom="pointrange",fun = mean, fun.min = function(x) mean(x)-sd(x), 
+               fun.max = function(x) mean(x)+sd(x), size=.5,alpha=.5)+ # 平均値±標準偏差のプロット
+  stat_summary(fun.data = n_fun, geom = "text",colour="black",size=4)+ # 各グループのデータ数を最大値の位置に追加
+  scale_y_continuous(breaks = c(0,10,20,30,40,50), limits = c(0,50), expand = c(0,0))+ # 数値軸の目盛りを指定
+  coord_flip() +　# 90度横向きにする
+  theme_classic()
+ggsave(file = "fig3.png", dpi = 300) # ファイルの保存
+```
+
