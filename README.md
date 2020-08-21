@@ -11,12 +11,16 @@ fig2(2)＝目録番号90「織田信長朱印状」
 fig2(3)＝目録番号275「德川家光朱印状」  
 図2.pdf  
 
-### 図3：図3の作成にもちいたデータ一式  
+### 図3_図5：図3と図5の作成にもちいたデータ一式  
 
-ryoshi-starch.csv＝デンプン粒のCSVファイル  
-starch-data＝Rマークダウンのファイル（Rmd、HTML、Word）  
-fig3＝作成した図（本論文の図3に使用）  
-図3.PDF  
+ryoshi-starch.csv＝デンプン粒のCSVファイル
+tissue-fibre.csv＝細胞組織・繊維のCSVファイル  
+starch-tissue_data.Rmd＝Rマークダウンのファイル（Rmd、HTML、Word）  
+fig3＝作成した図3  
+fig5-1＝作成した図5(1)
+fig5-2＝作成した図5(2)
+図3.png  
+図5.PDF
 
 ### 図4：顕微鏡撮影画像4点  
 
