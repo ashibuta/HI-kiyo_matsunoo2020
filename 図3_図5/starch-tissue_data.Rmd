@@ -27,6 +27,7 @@ library(knitr)
 library(rmarkdown)
 library(revealjs)
 library(scales)
+library(reshape2)
 ```
 
 ```{r, message=FALSE, comment=""}
@@ -53,6 +54,7 @@ ggplot(starch, aes(x = デンプン粒の種類, y = 粒径範囲)) +
   stat_summary(fun.data = n_fun, geom = "text",colour="black",size=4)+ # 各グループのデータ数を最大値の位置に追加
   scale_y_continuous(breaks = c(0,10,20,30,40,50), limits = c(0,50), expand = c(0,0))+ # 数値軸の目盛りを指定
   coord_flip() +　# 90度横向きにする
+  labs(x = "デンプン粒の種類", y = "粒径範囲（μm）") + # ラベルの指定
   theme_classic()
 ggsave(file = "fig3.png", dpi = 300) # ファイルの保存
 ```
@@ -69,25 +71,25 @@ dim(tissue)　  # tissue-fibreに含まれる観測数と変数の数を表示�
 ```
 
 ```{r, message=FALSE, comment=""}
-# 図5(1)　細胞組織／柔細胞の断片の含有状況
+# 図5(1)　史料の年代別の細胞組織／柔細胞の断片の含有状況
 ggplot(tissue, aes(x = 西暦, y = 細胞組織)) +
-  geom_line() +
-  scale_x_continuous(breaks = c(1150,1200,1300,1400,1500,1600,1700,1800,1900), 
-                     limits = c(1150,1860), expand = c(0,0)) + # X軸の目盛りを指定
+  geom_area(colour = "grey", fill ="grey", alpha=0.5) + # 網掛け領域付きの折れ線グラフの作成
+  scale_x_continuous(breaks = c(1160,1200,1300,1400,1500,1600,1700,1800,1860), 
+                     limits = c(1160,1870), expand = c(0,0)) + # X軸の目盛りを指定
   scale_y_continuous(breaks = c(0,100,200,300,400,500,600), limits = c(0,600), expand = c(0,0))+ # Y軸の目盛りを指定
-  labs(x = "年", y = "細胞組織（片）") +
+  labs(x = "西暦（年）", y = "細胞組織（片）") + # ラベルの指定
   theme_classic()
-ggsave(file = "fig5-1.png", dpi = 300) # ファイルの保存
+ggsave(file = "fig5-1.png", width = 6, height = 4, dpi = 100) # ファイルの保存
 ```
 
 ```{r, message=FALSE, comment=""}
-# 図5(2)　繊維の断片の含有状況
+# 図5(2)　史料の年代別の繊維の断片の含有状況
 ggplot(tissue, aes(x = 西暦, y = 繊維)) +
-  geom_line() +
-  scale_x_continuous(breaks = c(1150,1200,1300,1400,1500,1600,1700,1800,1900), 
-                     limits = c(1150,1860), expand = c(0,0)) + # X軸の目盛りを指定
+  geom_area(colour = "grey", fill ="grey", alpha=0.5) + # 網掛け領域付きの折れ線グラフの作成
+  scale_x_continuous(breaks = c(1160,1200,1300,1400,1500,1600,1700,1800,1860), 
+                     limits = c(1160,1870), expand = c(0,0)) + # X軸の目盛りを指定
   scale_y_continuous(breaks = c(0,2,4,6,8,10,12,14), limits = c(0,14), expand = c(0,0))+ # Y軸の目盛りを指定
-  labs(x = "年", y = "繊維（片）") +
+  labs(x = "西暦（年）", y = "繊維（片）") + # ラベルの指定
   theme_classic()
-ggsave(file = "fig5-2.png", dpi = 300) # ファイルの保存
+ggsave(file = "fig5-2.png", width = 6, height = 4, dpi = 300) # ファイルの保存
 ```
