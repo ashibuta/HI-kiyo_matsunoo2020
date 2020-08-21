@@ -17,10 +17,10 @@ ryoshi-starch.csv＝デンプン粒のCSVファイル
 tissue-fibre.csv＝細胞組織・繊維のCSVファイル  
 starch-tissue_data.Rmd＝Rマークダウンのファイル（Rmd、HTML、Word）  
 fig3＝作成した図3  
-fig5-1＝作成した図5(1)
-fig5-2＝作成した図5(2)
+fig5-1＝作成した図5(1)  
+fig5-2＝作成した図5(2)  
 図3.png  
-図5.PDF
+図5.PDF  
 
 ### 図4：顕微鏡撮影画像4点  
 
