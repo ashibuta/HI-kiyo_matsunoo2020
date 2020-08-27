@@ -52,7 +52,7 @@ fig5-2＝作成した図5(2)  Used for Figure 5 (2)
 
 ### Fig4  図4  
 
-fig4(1)1＝目録番号12「光厳院院宣」シバンムシ類の付着箇所 "Kogonin Inzen" Anobiidae on the surface  
+fig4(1)1＝目録番号12「光厳院院宣」ダニ？の付着箇所 "Kogonin Inzen" Acari? on the surface  
 fig4(1)2＝目録番号12「光厳院院宣」"Kogoin Inzen"  
 fig4(2)＝目録番号330「仁孝天皇綸旨」"Ninko Tenno Rinji"  
 fig4(3)＝目録番号10「後醍醐天皇綸旨」"Godaigo Tenno Rinji"  
