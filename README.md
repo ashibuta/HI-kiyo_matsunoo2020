@@ -5,7 +5,7 @@
 本稿の分析結果に対し再検証を可能にするため、各図版に使用した表、顕微鏡撮影画像と撮影箇所の情報、および料紙に含有されたデンプン粒や細胞組織、繊維の解析に用いた関連データを個々に公開した。顕微鏡撮影画像はいずれも改変を行っていないオリジナルのデータであり、画像のダウンロード後に拡大・縮小での検証が可能である。またデンプン粒や細胞組織、繊維の解析では、透明性の高いソフトウェア環境Rを用いて、分析データの分布や構造の可視化を実施しした。なお、これらのデータの著作権はすべて著者らに帰属している（CC BY-NC-ND 4.0）。  
 </p>
 
-Supplemental materials for paper: "Component Analysis of Historical Paper Materials at the Matunoo Taisha Shrine Using Archaeological and Botanical Methodologies"
+Supplemental materials for paper: "Component Analysis of Historical Paper Materials at the Matsunoo Taisha Shrine Using Archaeological and Botanical Methodologies"
 
 Contributors: Ayako Shibutani  
 License: CC BY-NC-ND 4.0  
@@ -19,7 +19,7 @@ N.B. All contents are just only in Japanese.
 
 ## Shooting information　撮影情報  
 
-Shooting information by our microscopic observations
+Shooting information by our microscopic observations  
 顕微鏡撮影箇所の情報をまとめたもの  
 
 ## Table1　表1
@@ -52,7 +52,7 @@ fig5-2＝作成した図5(2)  Used for Figure 5 (2)
 
 ### Fig4  図4  
 
-fig4(1)1＝目録番号12「光厳院院宣」シバンムシ類の付着箇所 "Kogonin Inzen" worm  
+fig4(1)1＝目録番号12「光厳院院宣」シバンムシ類の付着箇所 "Kogonin Inzen" Anobiidae on the surface  
 fig4(1)2＝目録番号12「光厳院院宣」"Kogoin Inzen"  
 fig4(2)＝目録番号330「仁孝天皇綸旨」"Ninko Tenno Rinji"  
 fig4(3)＝目録番号10「後醍醐天皇綸旨」"Godaigo Tenno Rinji"  
