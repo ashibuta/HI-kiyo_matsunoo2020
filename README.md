@@ -42,8 +42,6 @@ fig2(3)＝目録番号275「德川家光朱印状」"Tokugawa Iemitsu Shuinjo"
 ### Fig3_Fig5  図3_図5
 
 ryoshi-starch.csv＝デンプン粒のCSVファイル  CSV file of starch grains  
-  ファイル内の料紙デンプン粒は粒子の縦径・横径の計測結果を示しており、サンプル数とは異なる。  
-  The measurements of starch grains sum up their lengths and widths, and they are different from sample numbers.  
 tissue-fibre.csv＝細胞組織・繊維のCSVファイル  CSV file of tissue and fibre fragments  
 starch-tissue_data.Rmd＝Rマークダウンのファイル  Rmarkdown file (Rmd, HTML. Word)  
 fig3＝作成した図3  Used for Figure 3  
