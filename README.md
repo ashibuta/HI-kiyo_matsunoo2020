@@ -2,15 +2,18 @@
 
 作成者：渋谷綾子  
 
-本稿の分析結果に対し再検証を可能にするため、各図版に使用した表、顕微鏡撮影画像と撮影箇所の情報、および料紙に含有されたデンプン粒や細胞組織、繊維の解析に用いた関連データを個々に公開した。顕微鏡撮影画像はいずれも改変を行っていないオリジナルのデータであり、画像のダウンロード後に拡大・縮小での検証が可能である。またデンプン粒や細胞組織、繊維の解析では、透明性の高いソフトウェア環境Rを用いて、分析データの分布や構造の可視化を実施しした。なお、これらのデータの著作権はすべて著者らに帰属している（CC BY-NC-ND 4.0）。  
+　Marwick（2020）は、「データの分析について、明確な、または､スクリプト化された再現可能なワークフローを作り、そのワークフローをアクセス可能にする」､「実施した研究を他の日とが容易に評価できるように、透明性が高くアクセス可能な分析ツールおよびソフトウェア（R、Pythonなどのプログラミング言語など）を採用する」ことを推奨している。料紙研究の公開生と透明性、データへのアクセシビリティの向上は重要である。本稿では、分析結果に対する再検証を可能にするため、各図版に使用した表、顕微鏡撮影画像と撮影箇所の情報、および料紙に含有されたデンプン粒や細胞組織、繊維の解析に用いた関連データを個々に公開する。顕微鏡撮影画像はいずれも改変を行っていないオリジナルのデータであり、画像のダウンロード後に拡大・縮小での検証が可能である。またデンプン粒や細胞組織、繊維の解析では、透明性の高いソフトウェア環境Rを用いて、分析データの分布や構造の可視化を実施しした。なお、これらのデータの著作権はすべて著者らに帰属している（CC BY-NC-ND 4.0）。  
+
+B. Marwick、日本語化：高田祐一・野口淳・Peter Yanase「考古学における研究成果公開の動向－データ管理・方法の透明性・再現性－」（独立行政法人国立文化財機構奈良文化財研究所編『デジタル技術による文化財情報の記録と利活用2』奈良文化財研究所研究報告第24冊､奈良市､2020年）。  
 </p>
 
-Supplemental materials for paper: "Component Analysis of Historical Paper Materials at the Matsunoo Taisha Shrine Using Archaeological and Botanical Methodologies"
+## **Supplemental materials for paper: "Component Analysis of Historical Paper Materials at the Matsunoo Taisha Shrine Using Archaeological and Botanical Methodologies"**
 
 Contributors: Ayako Shibutani  
 License: CC BY-NC-ND 4.0  
 
 For transparency in our research project, we uploaded here to show our tables, microscopic images and shooting information, and related codes to statistic analyses of starch grains, tissue and fibre fragments in surveyed historical materials. Microscopis images are the original data withiout any changes, and anyone is enable to download them and to see the details. In statistic analyses of starch grains and others, distribution and structures of all data were visualised through R/RStudio.  
+</p>
 </p>
 
 ## データの内容　Contents  
