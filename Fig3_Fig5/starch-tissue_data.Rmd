@@ -2,11 +2,11 @@
 title:  <span style="font-size:12pt">「考古学・植物学を活用した松尾大社社蔵史料の料紙の構成物分析」関連データ</span>
 author: <span style="font-size:10pt">渋谷綾子・野村朋弘・高島晶彦・天野真志・山田太造</span> 
 output: 
+ html_document: default
  word_document:
     fig_width: 7
     fig_height: 5
     fig_caption: true
- html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -48,7 +48,7 @@ return(data.frame(y = max(x)+3.5, label = paste0("n = ",length(x))))
 }
 
 ggplot(starch, aes(x = デンプン粒の種類, y = 粒径範囲)) +
-  geom_violin(trim=T,fill="#999999",linetype="blank",alpha=I(1/3),adjust=2.5)+ # バイオリンプロット作成
+  geom_violin(trim=T,fill="#737373",linetype="blank",alpha=I(1/3),adjust=2.5)+ # バイオリンプロット作成
   stat_summary(geom="pointrange",fun = mean, fun.min = function(x) mean(x)-sd(x), 
                fun.max = function(x) mean(x)+sd(x), size=.5,alpha=.5)+ # 平均値±標準偏差をプロット
   stat_summary(fun.data = n_fun, geom = "text",colour="black",size=4)+ # 各グループのデータ数を最大値の位置に追加
