@@ -1,4 +1,4 @@
-# **「考古学・植物学を活用した松尾大社社蔵史料の料紙の構成物分析」『東京大学史料編纂所研究紀要』31　補足資料**
+# **「古文書料紙の科学研究：陽明文庫所蔵史料および都城島津家史料を例として」『東京大学史料編纂所研究紀要』32　補足資料**
 
 作成者：渋谷綾子  
 
@@ -7,7 +7,7 @@
 B. Marwick、日本語化：高田祐一・野口淳・Peter Yanase「考古学における研究成果公開の動向－データ管理・方法の透明性・再現性－」（独立行政法人国立文化財機構奈良文化財研究所編『デジタル技術による文化財情報の記録と利活用2』奈良文化財研究所研究報告第24冊､奈良市､2020年）。  
 </p>
 
-## **Supplemental materials for paper: "Component Analysis of Historical Paper Materials at the Matsunoo Taisha Shrine Using Archaeological and Botanical Methodologies"**
+## **Supplemental materials for paper: "Scientific Approach of Historical Paper Materials: Case Studies of Materials at the Yomei Bunko and Miyakonojo Shimazu-ke"**
 
 Contributors: Ayako Shibutani  
 License: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en)  
@@ -33,30 +33,36 @@ Same as the table 1
 ## Table2  表2
 
 Same as the table 2  
-表2と同じ
+表2と同じ  
+
+## Table3  表3
+
+Same as the table 3  
+表3と同じ  
+
+## Table4  表4
+
+Same as the table 4  
+表4と同じ  
+
+### Fig1　図1  
+
+fig1(1)＝一般文書目録番号400「伊達政宗書状」"Date Masamune Shojo"  
+fig1(2)＝一般文書目録番号416「伊達政宗書状」"Date Masamune Shojo"  
+fig1(3)＝一般文書目録番号418「伊達政宗書状」"Date Masamune Shojo"  
+図1.pdf  Figure 1  
 
 ### Fig2　図2  
 
-fig2(1)＝目録番号273「德川家康朱印状」"Tokugawa Ieyasu Shuinjo"  
-fig2(2)＝目録番号90「織田信長朱印状」"Oda Nobunaga Shuinjo"  
-fig2(3)＝目録番号275「德川家光朱印状」"Tokugawa Iemitsu Shuinjo"  
-図2.pdf  Figure 2  
+fig1(1)＝一般文書目録番号3165「近衛稙家消息」"Konoe Taneine Shosoku"  
+fig1(2)＝一般文書目録番号38725「近衛前久消息」"Konoe Sakihisa Shosoku"  
+fig1(3)＝一般文書目録番号2372「近衛信尹消息」"Konoe Nobutada Shosoku"  
+図2.pdf  Figure 2 
 
-### Fig3_Fig5  図3_図5
+### Fig3　図3  
 
-ryoshi-starch.csv＝デンプン粒のCSVファイル  CSV file of starch grains  
-tissue-fibre.csv＝細胞組織・繊維のCSVファイル  CSV file of tissue and fibre fragments  
-starch-tissue_data.Rmd＝Rマークダウンのファイル  Rmarkdown file (Rmd, HTML. Word)  
-fig3＝作成した図3  Used for Figure 3  
-fig5-1＝作成した図5(1)  Used for Figure 5 (1)  
-fig5-2＝作成した図5(2)  Used for Figure 5 (2)  
-図3.png  Figure 3  
-図5.PDF  Figure 5  
-
-### Fig4  図4  
-
-fig4(1)1＝目録番号12「光厳院院宣」ダニ？の付着箇所 "Kogonin Inzen" Acari? on the surface  
-fig4(1)2＝目録番号12「光厳院院宣」"Kogoin Inzen"  
-fig4(2)＝目録番号330「仁孝天皇綸旨」"Ninko Tenno Rinji"  
-fig4(3)＝目録番号10「後醍醐天皇綸旨」"Godaigo Tenno Rinji"  
-図4.PDF  Figure 4
+fig3(1)＝「朝鮮国王国書」"Chosen Kokuo Kokusho"  
+fig3(1)-2＝「朝鮮国王国書」"Chosen Kokuo Kokusho"  
+fig3(2)＝「島津義久書状」"Shimadu Yoshihisa Shojo"  
+fig3(2)-2＝「島津義久書状」包 "Shimadu Yoshihisa Shojo" Tsutsumi  
+図3.pdf  Figure 3  
